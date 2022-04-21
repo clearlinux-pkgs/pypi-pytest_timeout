@@ -4,7 +4,7 @@
 #
 Name     : pypi-pytest_timeout
 Version  : 2.1.0
-Release  : 67
+Release  : 68
 URL      : https://files.pythonhosted.org/packages/ef/30/37abbd50f86cb802cbcea50d68688438de1a7446d73c8ed8d048173b4b13/pytest-timeout-2.1.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ef/30/37abbd50f86cb802cbcea50d68688438de1a7446d73c8ed8d048173b4b13/pytest-timeout-2.1.0.tar.gz
 Summary  : pytest plugin to abort hanging tests
@@ -14,9 +14,9 @@ Requires: pypi-pytest_timeout-license = %{version}-%{release}
 Requires: pypi-pytest_timeout-python = %{version}-%{release}
 Requires: pypi-pytest_timeout-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pexpect
 BuildRequires : pypi(pytest)
-BuildRequires : pytest
+BuildRequires : pypi-pexpect
+BuildRequires : pypi-pytest
 
 %description
 pytest-timeout
@@ -61,7 +61,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1642607700
+export SOURCE_DATE_EPOCH=1650499633
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
