@@ -5,7 +5,7 @@
 #
 Name     : pypi-pytest_timeout
 Version  : 2.2.0
-Release  : 78
+Release  : 79
 URL      : https://files.pythonhosted.org/packages/2a/b0/8e3182e9ed65ad5b247f9d13769f214fc52b0d3522c3e1c8dbfa2f879e5a/pytest-timeout-2.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/2a/b0/8e3182e9ed65ad5b247f9d13769f214fc52b0d3522c3e1c8dbfa2f879e5a/pytest-timeout-2.2.0.tar.gz
 Summary  : pytest plugin to abort hanging tests
